@@ -271,6 +271,7 @@ a{text-decoration:none;}
     .m-intro .title{  
         margin:0;
         left:50%;
+        transform:translate(-50%,-50%);
        
     }
     .m-contact{
