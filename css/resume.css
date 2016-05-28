@@ -276,6 +276,7 @@ a{text-decoration:none;}
     	width:100%;
     	height:150px;
     	top:110px;
+    	background:transparent;
     }
     .m-contact .list{
     	padding-left:10px;
