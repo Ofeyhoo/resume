@@ -272,7 +272,7 @@ a{text-decoration:none;}
         margin:0;
         left:50%;
         top:50px;
-        transform:translate(-50%,-50%);     
+           
     }
     .m-contact{
     	width:100%;
@@ -283,6 +283,3 @@ a{text-decoration:none;}
     	padding-left:10px;
     }
 }
-
-
-
