@@ -253,29 +253,26 @@ a{text-decoration:none;}
     	margin-top:0;
     	border:none;
     }
-
-
 }
 
 @media screen and (max-width:680px){
     html{
     	font-size:13px;
     }
-
     .m-intro .img{
        display:none;
     }
     .m-intro{
-    	text-align:center;
     	height:260px;
     	background:#3E5F94;
     	color:#fff;
+    	text-align:center;
     }
     .m-intro .title{  
-       position:static;
-       display:inline-block;
-       margin:0;
-       transform: translateY(10%);
+        margin:0;
+        left:50%;
+        top:20%;
+        transform:translate(-50%,-50%);     
     }
     .m-contact{
     	width:100%;
@@ -284,11 +281,7 @@ a{text-decoration:none;}
     }
     .m-contact .list{
     	padding-left:10px;
-    	position:static;
-    	transform: translateY(25%);
     }
-
-
 }
 
 
