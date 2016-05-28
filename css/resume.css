@@ -25,7 +25,7 @@ a{text-decoration:none;}
 /* 简历容器 */
 .container{
     width:1100px;
-    margin:0 auto;
+    margin:30px auto;
     background:#1b1f2b;
     border:4px solid hsla(0,0%,100%,.2);
     box-sizing:border-box;
