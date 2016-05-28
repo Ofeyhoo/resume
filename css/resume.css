@@ -78,11 +78,11 @@ a{text-decoration:none;}
 
 .m-contact .list{
 	list-style:none;
-/*	position:absolute;
+	position:absolute;
 	top:50%;
 	-webkit-transform:translateY(-50%);
 	transform:translateY(-50%);
-	margin-top:0;*/
+	margin-top:0;
 }
 
 .m-contact .age,.m-contact .address,.m-contact .phone,.m-contact .mail{
@@ -284,6 +284,8 @@ a{text-decoration:none;}
     }
     .m-contact .list{
     	padding-left:10px;
+    	position:static;
+    	transform: translateY(25%);
     }
 
 
