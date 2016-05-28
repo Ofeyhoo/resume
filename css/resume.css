@@ -80,6 +80,7 @@ a{text-decoration:none;}
 	list-style:none;
 	position:absolute;
 	top:50%;
+	-webkit-transform:translateY(-50%);
 	transform:translateY(-50%);
 	margin-top:0;
 }
@@ -284,10 +285,7 @@ a{text-decoration:none;}
     .m-contact .list{
     	padding-left:10px;
     }
-    .m-contact .list li{
-    	margin-right:30px;
-    	display:inline-block;
-    }
+
 
 }
 
