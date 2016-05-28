@@ -56,6 +56,7 @@ a{text-decoration:none;}
 .m-intro .title{
 	position:absolute;
 	top:50%;
+	-webkit-transform:translateY(-50%);
 	transform: translateY(-50%);
 	margin-left: 210px;
 }
@@ -76,13 +77,13 @@ a{text-decoration:none;}
 	font-style:normal;
 }
 
-.m-contact .list{
-	list-style:none;
+.m-contact .list{	
 	position:absolute;
 	top:50%;
 	-webkit-transform:translateY(-50%);
 	transform:translateY(-50%);
 	margin-top:0;
+	list-style:none;
 }
 
 .m-contact .age,.m-contact .address,.m-contact .phone,.m-contact .mail{
@@ -271,9 +272,8 @@ a{text-decoration:none;}
     .m-intro .title{  
         margin:0;
         left:50%;
-        -webkit-transform:translateY(-50%,-50%);
-        transform:translateY(-50%,-50%);
-       
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);     
     }
     .m-contact{
     	width:100%;
