@@ -279,10 +279,14 @@ a{text-decoration:none;}
     .m-contact{
     	width:100%;
     	height:150px;
-    	top:90px;
+    	top:110px;
     }
     .m-contact .list{
     	padding-left:10px;
+    }
+    .m-contact .list li{
+    	margin-right:30px;
+    	display:inline-block;
     }
 
 }
